@@ -1,0 +1,211 @@
+header {
+  margin-bottom: 93px;
+}
+header .header__container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__container .menu {
+  display: flex;
+  gap: 40px;
+}
+@media (max-width: 900px) {
+  header .header__container .menu {
+    gap: 15px;
+  }
+}
+@media (max-width: 800px) {
+  header .header__container .menu {
+    display: none;
+  }
+}
+header .header__container .menu a {
+  font-weight: 400;
+  line-height: 19px;
+  color: #4F5665;
+}
+header .header__container .menu a:hover {
+  color: #9398a2;
+}
+header .header__container .buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+@media (max-width: 900px) {
+  header .header__container .buttons {
+    gap: 15px;
+  }
+}
+@media (max-width: 800px) {
+  header .header__container .buttons {
+    display: none;
+  }
+}
+header .header__container .buttons button {
+  font-weight: 500;
+  line-height: 19px;
+  background-color: unset;
+  cursor: pointer;
+}
+header .header__container .buttons .sign-in {
+  color: #0B132A;
+}
+header .header__container .buttons .sign-in:hover {
+  color: #F53855;
+}
+header .header__container .buttons .sign-up {
+  color: #F53855;
+  border: 1px solid #F53855;
+  border-radius: 50px;
+  padding: 13px 45px;
+}
+header .header__container .buttons .sign-up:hover {
+  background-color: #f7d3d8;
+}
+header .header__container .burger {
+  display: none;
+  font-size: 30px;
+}
+@media (max-width: 800px) {
+  header .header__container .burger {
+    display: block;
+  }
+}
+header .header__container .burger a {
+  color: #0B132A;
+}
+
+main {
+  margin-bottom: 103px;
+}
+main .main__container {
+  display: flex;
+  position: relative;
+}
+main .main__container .block__contant {
+  z-index: 1;
+  width: 52%;
+}
+@media (max-width: 800px) {
+  main .main__container .block__contant {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+main .main__container .block__contant .title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0B132A;
+  margin-bottom: 20px;
+}
+@media (max-width: 1050px) {
+  main .main__container .block__contant .title {
+    font-size: 47px;
+  }
+}
+@media (max-width: 955px) {
+  main .main__container .block__contant .title {
+    font-size: 44px;
+    line-height: 64px;
+  }
+}
+@media (max-width: 900px) {
+  main .main__container .block__contant .title {
+    font-size: 39px;
+    line-height: 58px;
+  }
+}
+@media (max-width: 800px) {
+  main .main__container .block__contant .title {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  main .main__container .block__contant .title {
+    font-size: 35px;
+    line-height: 53px;
+  }
+}
+main .main__container .block__contant .subtitle {
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+@media (max-width: 900px) {
+  main .main__container .block__contant .subtitle {
+    line-height: 27px;
+  }
+}
+@media (max-width: 800px) {
+  main .main__container .block__contant .subtitle {
+    text-align: center;
+  }
+}
+main .main__container .block__contant .get-started {
+  background-color: #F53838;
+  color: #fff;
+  border-radius: 10px;
+  padding: 17px 77px;
+  cursor: pointer;
+}
+main .main__container .block__contant .get-started:hover {
+  background-color: #f29d9d;
+}
+main .main__container .block__image {
+  width: 48%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+}
+@media (max-width: 800px) {
+  main .main__container .block__image {
+    width: 100%;
+  }
+}
+main .main__container .block__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.about .about__container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.about .about__container .item {
+  width: 33.333%;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+.about .about__container .item .image img {
+  width: 100%;
+  height: 100%;
+}
+.about .about__container .item .block__text {
+  display: flex;
+  flex-direction: column;
+}
+.about .about__container .item .block__text .amount {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0B132A;
+}
+.about .about__container .item .block__text .name {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about .about__container .with-border {
+  border-left: 2px solid #EEEFF2;
+  border-right: 2px solid #EEEFF2;
+}

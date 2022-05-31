@@ -1,0 +1,60 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="./css/shared.css")
+        link(rel="stylesheet" href="./css/index.css")
+
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet")
+        script(src="https://kit.fontawesome.com/30b69f8f5c.js" crossorigin="anonymous")
+        title LaslesVPN
+    body
+        header 
+            .header__container.container 
+                .logo 
+                    a(href="#")
+                        img(src="./img/header/logo.svg" alt="logo")
+                .menu 
+                    a(href="#") About   
+                    a(href="#") Features   
+                    a(href="#") Pricing   
+                    a(href="#") Testimonials   
+                    a(href="#") Help
+                .buttons 
+                    button.sign-in Sign In 
+                    button.sign-up Sign Up 
+                .burger 
+                    a(href="#") 
+                        i(class="fa-solid fa-bars") 
+        main 
+            .main__container.container 
+                .block__contant
+                    h1.title Want anything to be easy with LaslesVPN.
+                    h2.subtitle Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us. 
+                    button.get-started Get Started
+                .block__image
+                    img(src="./img/main/block-image.svg" alt="block__image")
+        section.about 
+            .about__container.container 
+                .item 
+                    .image 
+                        img(src="./img/about/user.svg" alt="user")
+                    .block__text 
+                        h2.amount 90+
+                        h3.name Users
+                .item.with-border 
+                    .image 
+                        img(src="./img/about/location.svg" alt="location")
+                    .block__text 
+                        h2.amount 30+
+                        h3.name Locations
+                .item 
+                    .image 
+                        img(src="./img/about/server.svg" alt="server")
+                    .block__text 
+                        h2.amount 50+
+                        h3.name Servers
