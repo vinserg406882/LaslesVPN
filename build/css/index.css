@@ -189,6 +189,7 @@ main .main__container .block__image img {
   .about .about__container {
     flex-direction: column;
     gap: 35px;
+    height: unset;
   }
 }
 .about .about__container .item {
@@ -203,6 +204,11 @@ main .main__container .block__image img {
   .about .about__container .item {
     justify-content: unset;
   }
+}
+.about .about__container .item .image {
+  width: 55px;
+  height: 56px;
+  flex-shrink: 0;
 }
 .about .about__container .item .image img {
   width: 100%;
